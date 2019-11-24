@@ -7,13 +7,12 @@ Step 2 can be broken down into 3 processing levels:
 - Low-level process:
 	Usually takes an image as the input and then outputs another image. 
   Example procedures that can be applied in this step include the following:
-    + Resize 
-		+ Noise removal
-		+ Image sharpening
-		+ Illumination normalization
-		+ Perspective correction
-	In connection with the face-detection example, the output image can be an illumination normalization image 
-  to deal with changes caused by sun reflection.
+    + Resize
+    + Noise removal
+    + Image sharpening
+    + Illumination normalization
+    + Perspective correction
+In connection with the face-detection example, the output image can be an illumination normalization image to deal with changes caused by sun reflection.
   
 - Mid-level process:
 	Takes the preprocessed image to output some kind of representation of image. 
@@ -21,7 +20,7 @@ Step 2 can be broken down into 3 processing levels:
 	the width and the height containing the detected face.
   
 - High-level process:
-	Takes this vector of numbers (usually called attributes) and outputs the final result. For example, the input could be the detected face and the output could be 	the following:
+	Takes this vector of numbers (usually called attributes) and outputs the final result. For example, the input could be the detected face and the output could be the following:
 		+ Face recognition
 		+ Emotion recognition
 		+ Drowsiness and distraction detection
