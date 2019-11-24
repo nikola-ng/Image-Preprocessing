@@ -2,7 +2,7 @@
 
 1. Get the image to work with. This process usually involves some functions so that you can read the image from different sources (camera, video stream, disk, online resources)
 
-2. Process the image by applying image-processing techniques to achieve the required functionality (for example, detecting a cat in an image)
+2. Process the image by applying image-processing techniques to achieve the required functionality (for example, detecting a cat in an image).
 Step 2 can be broken down into 3 processing levels:
 - Low-level process:
 Usually takes an image as the input and then outputs another image. 
